@@ -1,0 +1,12 @@
+
+.cloud {
+    position: absolute;
+  }
+  
+ 
+  @media (max-width: 508px) {
+    .cloud {
+     bottom: 0;
+    }
+  }
+  

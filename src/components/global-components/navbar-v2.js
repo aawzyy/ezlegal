@@ -28,7 +28,7 @@ class NavbarV2 extends Component {
 									<div className="header-menu d-none d-xl-block go-top">
 										<nav>
 											<div className="ltn__main-menu" >
-												<ul style={{justifyContent:'end'}}>
+												<ul style={{justifyContent:'center'}}>
 													<li className=""><Link to="/">Home</Link></li>
 													<li className=""><Link to="/about">About</Link></li>
 													<li className=""><Link to="/shop">Property</Link></li>

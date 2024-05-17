@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import parse from 'html-react-parser';
+import './banner-v2.css';
 
 class BannerV2 extends Component {
 
@@ -14,7 +15,7 @@ class BannerV2 extends Component {
 				<div className="ltn__slider-11-active">
 					{/* slide-item */}
 					<div className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal ltn__slide-item-3 ltn__slide-item-11" style={{ backgroundImage: `url("assets/img/banner/banner-background-d.jpg")`, backgroundSize: 'cover',backgroundPosition:'1m3' }}>
-						<div style={{ position: 'absolute'}}>
+						<div className="cloud">
 							<img src={publicUrl + "assets/img/banner/b.png"} alt="#" style={{ width: '100%', animation: 'slideInRight 1s ease-in-out',objectFit:'cover'}} />
 
 						</div>

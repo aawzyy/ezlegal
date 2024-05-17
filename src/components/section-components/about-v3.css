@@ -1,0 +1,9 @@
+.diagonal-line {
+    border-bottom: 2px solid black;
+  
+  }
+  
+@font-face {
+    font-family: 'custom'; /* Give it a name */
+    src: url('../../../public/assets/fonts/new-folder/cooperplate/CopperplateCC-Bold.ttf') format('truetype'); /* Path to your font file */
+  }

@@ -6377,6 +6377,11 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   border-color: var(--border-color-3);
 }
 
+@font-face {
+  font-family: 'custom'; /* Give it a name */
+  src: url('./fonts/new-folder/cooperplate/CooperplateCC-bold.ttf') format('truetype'); /* Path to your font file */
+}
+
 .site-logo-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
