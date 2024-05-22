@@ -1,0 +1,176 @@
+/* CardSlider.css */
+.iframe-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.open-iframe-button {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #66B28B;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.base {
+  height: 40em;
+  padding-top: 3em;
+}
+
+.base h2 {
+  margin: 0;
+  bottom: 0;
+  font-size: 25px;
+  padding-left: 1em;
+  font-family: custom;
+  color: #303E47;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.card-a img {
+  width: 15em;
+  height: 20em;
+}
+
+.card-b {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 80%;
+  height: 40em;
+  margin: auto;
+  overflow: hidden;
+  padding-bottom: 5em;
+  padding-top: 5em;
+}
+
+.card-container {
+
+  width: 10em;
+  height: 100%;
+}
+
+.card-produk {
+
+  width: 20em;
+  height: 15em;
+  background-color: transparent;
+
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  will-change: transform, opacity;
+  justify-content: space-between;
+}
+
+
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  font-size: 5em;
+  cursor: pointer;
+  position: absolute;
+
+  transform: translateY(-50%);
+  z-index: 1000;
+  user-select: none;
+  color: #FFf;
+  /* Ensure the buttons are visible */
+  padding: 0;
+  margin: 0;
+}
+
+
+.nav-button.prev {
+  left: 10px;
+}
+
+.nav-button.next {
+  right: 10px;
+}
+
+.cta-a {
+  background-color: #5092D8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  width: 20em;
+  height: 3em;
+  padding: 0;
+}
+
+.cta-a:hover {
+  background-color: #325d8b;
+}
+
+@media (max-width: 768px) {
+  .card-item {
+    flex-direction: column;
+  }
+
+  .card-a img {
+    width: 20em;
+    height: 15em;
+  }
+
+  .card-b {
+    text-align: left;
+    color: black;
+  }
+
+  .card-b h2 {
+
+    color: black;
+  }
+
+  .card-b h5 {
+
+    color: black;
+  }
+}
+
+@font-face {
+  font-family: 'custom';
+  /* Give it a name */
+  src: url('../../../public/assets/fonts/new-folder/cooperplate/CopperplateCC-Bold.ttf') format('truetype');
+  /* Path to your font file */
+}

@@ -6,95 +6,81 @@ import './about-v3.css';
 class AboutV3 extends Component {
 
 	render() {
-
 		let publicUrl = process.env.PUBLIC_URL + '/'
+		let imagealt = 'image';
+		return (
+			<div>
+				<div style={{ flexDirection: 'row', display: 'flex', gap: '3em', justifyContent: 'center', paddingTop: '5em', paddingBottom: '5em' }}>
 
-		return <div className="ltn__about-us-area pt-115 pb-100 " style={{display:'flex',flexDirection:"column"}}>
-			<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', letterSpacing: '5px', }}>
-				<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '80%' }} className='diagonal-line'>
-					<img src={publicUrl + "assets/img/logo trillion vertikal.png"} alt="#" style={{ width: '25em', margin: '0 auto' }} />
-				</div>
-				<p >Your Best Property Partner</p>
-			</div>
-
-
-			<div style={{ display: 'flex', justifyContent: 'center', paddingTop: '5em' }}>
-				<h1 style={{ textAlign: 'center', width: '80%', fontFamily: 'custom' }}>KAMI HADIR UNTUK MEMBANTU ANDA MENEMUKAN PROPERTI IMPIAN!</h1>
-			</div>
-
-			<div style={{ display: 'flex', flexDirection: 'row',   width: '80%',alignSelf:'center'}} id='ini'>
-				<div style={{ width: '30%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-					
-					<img src={publicUrl + "assets/img/banner/banner-1.jpg"} alt="#" style={{ objectFit: 'cover', width: '100%',height:'100%'}} /> {/* Adjust image width if needed */}
-				</div>
-				<div style={{ width: '70%', display: 'flex',flexDirection:'column',paddingInline:'5em'}}>
-				<p >subjudul</p>
-					<h3>ini judul</h3>
-					<p >subjudul</p>
-					<h3>ini judul</h3>
-					<p >subjudul</p>
-					<h3>ini judul</h3>
-					<p >subjudul</p>
-					
-				</div>
-			</div>
-
-			<div className="container">
-				<div className="row">
-					<div className="col-lg-6 align-self-center">
-						<div className="about-us-img-wrap about-img-left">
-							<img src={publicUrl + "assets/img/others/11.png"} alt="About Us Image" />
-							<div className="about-us-img-info about-us-img-info-2 about-us-img-info-3 d-none">
-								<div className="ltn__video-img ltn__animation-pulse1">
-									<img src={publicUrl + "assets/img/others/8.png"} alt="video popup bg image" />
-									<a className="ltn__video-icon-2 ltn__video-icon-2-border---" href="https://www.youtube.com/embed/X7R-q9rsrtU?autoplay=1&showinfo=0" data-rel="lightcase:myCollection">
-										<i className="fa fa-play" />
-									</a>
-								</div>
-							</div>
-						</div>
+					<img src={publicUrl + "assets/img/banner/employee-img.JPG"} alt="#" style={{ objectFit: 'cover', width: '20em', height: '100%', borderRadius: '0.5em' }} /> {/* Adjust image width if needed */}
+					<div style={{ width: '50%' }}>
+						<div style={{ display: 'flex' }}><h5 className="gradient-background">About Us</h5></div>
+						<h1 style={{ color: '#5092D8' }}>Kenapa Harus Memilih<br />EzLegal?</h1>
+						<h4 style={{ fontWeight: '300' }}>Kami memahami betapa pentingnya legalitas dalam menjalankan bisnis, dan kami berkomitmen untuk memberikan solusi yang cepat, akurat, dan sesuai dengan peraturan yang berlaku. Dengan pendekatan yang personal dan transparan, kami memastikan setiap proses berjalan lancar dan efisien, sehingga Anda dapat fokus mengembangkan bisnis Anda tanpa khawatir tentang aspek legal. Kepercayaan dan kepuasan klien adalah prioritas utama kami, dan kami siap menjadi mitra terpercaya Anda dalam membangun fondasi hukum yang kuat untuk perusahaan Anda.</h4>
 					</div>
-					<div className="col-lg-6 align-self-center">
-						<div className="about-us-info-wrap">
-							<div className="section-title-area ltn__section-title-2--- mb-30">
-								<h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color">About Us</h6>
-								<h1 className="section-title">Dream Living Spaces
-									Setting New Build</h1>
-								<p>Over 39,000 people work for us in more than 70 countries all over the
-									This breadth of global coverage, combined with specialist services</p>
+
+
+				</div>
+				<div>
+					<h1 style={{ textAlign: 'center' }}>BAGAIMANA EZLEGAL DAPAT<br />MEMBANTU BISNIS ANDA?</h1>
+
+					<div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', gap: '1em', paddingTop: '5em' }} >
+						<div style={{width:'200px',display:'flex',alignItems:'center',flexDirection:'column'}}>
+							<div style={{ backgroundColor: '#5092D8', width: '100px', height: '100px', borderRadius: '10em', alignContent: 'center', display: 'flex', justifyContent: 'center' }}>
+								<img
+									src={publicUrl + "assets/img/banner/icon-help-1.svg"}
+									alt={imagealt}
+									style={{ width: '50px' }}
+								/>
 							</div>
-							<div className="ltn__feature-item ltn__feature-item-3">
-								<div className="ltn__feature-icon">
-									<span><i className="flaticon-house-4" /></span>
-								</div>
-								<div className="ltn__feature-info">
-									<h4><a >The Perfect Residency</a></h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod tempor incididunt ut labore et</p>
-								</div>
+							<h3 style={{textAlign:'center',fontWeight:'500'}}>Pendirian Perusashaan</h3>
+						</div>
+
+						<div style={{width:'200px',display:'flex',alignItems:'center',flexDirection:'column'}}>
+							<div style={{ backgroundColor: '#5092D8', width: '100px', height: '100px', borderRadius: '10em', alignContent: 'center', display: 'flex', justifyContent: 'center' }}>
+								<img
+									src={publicUrl + "assets/img/banner/icon-help-2.svg"}
+									alt={imagealt}
+									style={{ width: '50px' }}
+								/>
 							</div>
-							<div className="ltn__feature-item ltn__feature-item-3">
-								<div className="ltn__feature-icon">
-									<span><i className="flaticon-call-center-agent" /></span>
-								</div>
-								<div className="ltn__feature-info">
-									<h4><a >Global Architect Experts</a></h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod tempor incididunt ut labore et</p>
-								</div>
+							<h3 style={{textAlign:'center',fontWeight:'500'}}>Pembuatan / Perubahan Dokumen</h3>
+						</div>
+						<div style={{width:'200px',display:'flex',alignItems:'center',flexDirection:'column'}}>
+							<div style={{ backgroundColor: '#5092D8', width: '100px', height: '100px', borderRadius: '10em', alignContent: 'center', display: 'flex', justifyContent: 'center' }}>
+								<img
+									src={publicUrl + "assets/img/banner/icon-help-3.svg"}
+									alt={imagealt}
+									style={{ width: '50px' }}
+								/>
 							</div>
-							<div className="ltn__feature-item ltn__feature-item-3">
-								<div className="ltn__feature-icon">
-									<span><i className="flaticon-maps-and-location" /></span>
-								</div>
-								<div className="ltn__feature-info">
-									<h4><a >Built-in Storage Cupboards</a></h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod tempor incididunt ut labore et</p>
-								</div>
+							<h3 style={{textAlign:'center',fontWeight:'500'}}>Penutupan Perusahaan</h3>
+						</div>
+						<div style={{width:'200px',display:'flex',alignItems:'center',flexDirection:'column'}}>
+							<div style={{ backgroundColor: '#5092D8', width: '100px', height: '100px', borderRadius: '10em', alignContent: 'center', display: 'flex', justifyContent: 'center' }}>
+								<img
+									src={publicUrl + "assets/img/banner/icon-help-4.svg"}
+									alt={imagealt}
+									style={{ width: '50px' }}
+								/>
 							</div>
+							<h3 style={{textAlign:'center',fontWeight:'500'}}>Penutupan Perusahaan</h3>
+						</div>
+						<div style={{width:'200px',display:'flex',alignItems:'center',flexDirection:'column'}}>
+							<div style={{ backgroundColor: '#5092D8', width: '100px', height: '100px', borderRadius: '10em', alignContent: 'center', display: 'flex', justifyContent: 'center' }}>
+								<img
+									src={publicUrl + "assets/img/banner/icon-help-5.svg"}
+									alt={imagealt}
+									style={{ width: '50px' }}
+								/>
+							</div>
+							<h3 style={{textAlign:'center',fontWeight:'500'}}>Perizinan Khusus</h3>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+
+		)
 	}
 }
 

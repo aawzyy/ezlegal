@@ -7591,7 +7591,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .slide-title {
-  font-size: 46px;
+  font-size: 36px;
   font-weight: 700;
 }
 
@@ -17856,12 +17856,14 @@ input.cart-plus-minus-box {
 }
 
 .theme-btn-1 {
-  background-color: var(--ltn__secondary-color);
-  color: var(--white);
+  background-color: #fff;
+  color: #000;
+  border-radius: 0.5em;
 }
 .theme-btn-1:hover {
-  background-color: var(--ltn__primary-color);
+
   color: var(--white);
+  border-radius: 0.5em;
 }
 
 .theme-btn-2 {
@@ -17876,11 +17878,13 @@ input.cart-plus-minus-box {
 .theme-btn-3 {
   background-color: transparent;
   border: 2px solid var(--border-color-9);
+  border-radius: 0.5em;
+  color: var(--white);
 }
 .theme-btn-3:hover {
-  background-color: var(--ltn__secondary-color);
-  border-color: var(--ltn__secondary-color);
+ 
   color: var(--white);
+  border-radius: 0.5em;
 }
 
 .reverse-color {
@@ -17961,6 +17965,7 @@ input.cart-plus-minus-box {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  border-radius: 0.5em;
 }
 
 .btn-effect-1:after {
@@ -17968,11 +17973,11 @@ input.cart-plus-minus-box {
   height: 100%;
   top: 0;
   left: 0;
-  background: var(--white);
+  background: #5291D6;
 }
 
 .btn-effect-1:hover {
-  color: var(--ltn__heading-color);
+  color: #fff;
 }
 .btn-effect-1:hover::after {
   width: 100%;
@@ -17996,6 +18001,7 @@ input.cart-plus-minus-box {
 .btn-effect-3:after {
   width: 0%;
   height: 100%;
+  border-radius: 0.5em;
   top: 0;
   left: 0;
   background: var(--ltn__primary-color);
@@ -18003,9 +18009,11 @@ input.cart-plus-minus-box {
 
 .btn-effect-3:hover {
   color: var(--white);
+  border-radius: 0.5em;
 }
 .btn-effect-3:hover::after {
   width: 100%;
+  border-radius: 0.5em;
 }
 
 .btn-effect-4:after {

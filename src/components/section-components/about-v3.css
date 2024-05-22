@@ -1,9 +1,14 @@
-.diagonal-line {
-    border-bottom: 2px solid black;
-  
-  }
-  
+.gradient-background {
+  background: linear-gradient(135deg, #d52c50, #ff6e6b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
 @font-face {
-    font-family: 'custom'; /* Give it a name */
+    font-family: 'custom'; /* Give it a name */ 
     src: url('../../../public/assets/fonts/new-folder/cooperplate/CopperplateCC-Bold.ttf') format('truetype'); /* Path to your font file */
   }

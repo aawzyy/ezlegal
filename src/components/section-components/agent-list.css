@@ -1,0 +1,136 @@
+/* CardSlider.css */
+
+.base {
+  height: 40em;
+}
+
+.base h1{
+  margin: 0;
+  bottom: 0;
+  font-size: 35px;
+  padding-left: 1em;
+  font-family: custom;
+  color: #303E47;
+}
+
+.card-item{
+  display: flex;
+  gap: 2em;
+}
+.card-a img{
+  width: 15em;
+  height: 20em;
+}
+
+.card-b{
+  text-align: left;
+  color:white;
+}
+.card-b h2{
+
+  color:#FFE9C4;
+}
+.card-b h5{
+
+  color:white;
+}
+
+.card-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 80%;
+  height: 40em;
+  margin: auto;
+  overflow: hidden;
+  padding-bottom: 5em;
+  padding-top: 5em;
+}
+
+.card-container {
+  position: relative;
+  width: 40em;
+  height: 100%;
+}
+
+.card {
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 10px;
+
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  will-change: transform, opacity;
+}
+
+
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  font-size: 5em;
+  cursor: pointer;
+  position: absolute;
+ 
+  transform: translateY(-50%);
+  z-index: 1000;
+  user-select: none;
+  color: #FFf; /* Ensure the buttons are visible */
+  padding: 0;
+  margin: 0;
+}
+
+
+.nav-button.prev {
+  left: 10px;
+}
+
+.nav-button.next {
+  right: 10px;
+}
+
+.cta-button {
+  background-color:#FFE9C4;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.cta-button:hover {
+  background-color: #d5b06f;
+}
+
+@media (max-width: 768px) {
+  .card-item {
+   flex-direction: column;
+  }
+
+  .card-a img{
+    width: 20em;
+    height: 15em;
+  }
+
+  .card-b{
+    text-align: left;
+    color:black;
+  }
+  .card-b h2{
+  
+    color:black;
+  }
+  .card-b h5{
+  
+    color:black;
+  }
+}
+
+@font-face {
+  font-family: 'custom'; /* Give it a name */
+  src: url('../../../public/assets/fonts/new-folder/cooperplate/CopperplateCC-Bold.ttf') format('truetype'); /* Path to your font file */
+}

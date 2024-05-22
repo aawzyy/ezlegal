@@ -20,7 +20,7 @@ class NavbarV2 extends Component {
 								<div className="col">
 									<div className="site-logo-wrap">
 										<div className="site-logo go-top">
-											<Link to="/"><img src={publicUrl + "assets/img/trillion logo black.png"} alt="Logo" style={{ height: '70px' }} /></Link>
+											<Link to="/"><img src={publicUrl + "assets/img/Logo Ezlegal.png"} alt="Logo" style={{ height: '70px' }} /></Link>
 										</div>
 									</div>
 								</div>
@@ -30,28 +30,18 @@ class NavbarV2 extends Component {
 											<div className="ltn__main-menu" >
 												<ul style={{justifyContent:'center'}}>
 													<li className=""><Link to="/">Home</Link></li>
-													<li className=""><Link to="/about">About</Link></li>
-													<li className=""><Link to="/shop">Property</Link></li>
+													<li className=""><Link to="/about">About Us</Link></li>
+													<li className=""><Link to="/about">Contact</Link></li>
+													<li className=""><Link to="/shop">Product</Link></li>
 													
+													<li className="" style={{color:'white',backgroundColor:'#5291D6', fontWeight:'bold',borderRadius:'0.5em'}}><Link to="/add-listing" style={{color:'white',fontWeight:'bold'}}>Daftar Sekarang</Link></li>
 												</ul>
 											</div>
 										</nav>
 
 									</div>
 								</div>
-								<div className="col header-menu-column">
-									<div className="header-menu d-none d-xl-block go-top">
-										<nav>
-											<div className="ltn__main-menu" >
-												<ul style={{justifyContent:'end'}}>
-													
-													<li className="" style={{color:'white',backgroundColor:'#075e54', fontWeight:'bold'}}><Link to="/add-listing" style={{color:'white',fontWeight:'bold'}}>Contact Us</Link></li>
-												</ul>
-											</div>
-										</nav>
-										
-									</div>
-								</div>
+								
 								<div className="col--- ltn__header-options ltn__header-options-2 ">
 									{/* Mobile Menu Button */}
 									<div className="mobile-menu-toggle d-xl-none">

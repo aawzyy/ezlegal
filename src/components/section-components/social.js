@@ -14,9 +14,9 @@ const Social = () => {
     <div className="ltn__social-media footer-menu go-top">
       <ul className="social-icons">
         {socialLinks.map((link) => (
-          <li key={link.href}>
+          <li key={link.href} style={{color:'black'}}>
             <Link to={link.href} title={link.title}>
-              <i className={link.icon}></i> {link.username}
+              <i className={link.icon} style={{color:'black'}}></i> {link.username}
             </Link>
 			
           </li>

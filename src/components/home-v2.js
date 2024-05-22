@@ -2,7 +2,9 @@ import React from 'react';
 import Navbar from './global-components/navbar-v2';
 import Banner from './section-components/banner-v2';
 import Aboutv3 from './section-components/about-v3';
+import Property from './section-components/property-list-highlight'
 import Video from './section-components/video-v2';
+import Agent from './section-components/agent-list';
 import Features from './section-components/features-v1';
 import UpComingProduct from './section-components/upcoming-product-v1';
 import ApartmentV2 from './section-components/apartment-v2';
@@ -20,8 +22,7 @@ const Home_V2 = () => {
         <Navbar />
         <Banner />
         <Aboutv3 />
-        <Features customClass="ltn__feature-area section-bg-1--- pt-115 pb-90 mb-120---"/>
-        <CallToActionV1 />
+        <Property/>
         <Footer />
     </div>
 }

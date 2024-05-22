@@ -43,46 +43,46 @@ class Footer_v1 extends Component {
 		let imgattr = "Footer logo"
 
 		return (
-			<footer className="ltn__footer-area  ">
-				<div className="footer-top-area  section-bg-2 plr--5">
+			<footer className="ltn__footer-area " >
+				<div className="footer-top-area  section-bg-2 plr--5" style={{backgroundColor:'white'}}>
 					<div className="container-fluid">
 						<div className="row">
 							<div className="col-xl-3 col-md-6 col-sm-6 col-12">
 								<div className="footer-widget footer-about-widget">
 									<div className="footer-logo">
 										<div className="site-logo">
-											<img src={publicUrl + "assets/img/trillion logo black.png"} alt="Logo" />
+											<img src={publicUrl + "assets/img/Logo Ezlegal.png"} alt="Logo" />
 										</div>
 									</div>
 								</div>
 							</div>
 							<div className='col-xl-3 col-md-6 col-sm-6 col-12'>
 								<div className='footer-widget footer-menu-widget clearfix'>
-								<p>Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.</p>
+								<p style={{color:'black'}}>Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.</p>
 								<div className="footer-address">
 									<ul>
 										<li>
 											<div className="footer-address-icon">
-												<i className="icon-placeholder" />
+												<i className="icon-placeholder" style={{color:'black'}}/>
 											</div>
 											<div className="footer-address-info">
-												<p>Pantai Indah Kapuk 2 - Kosambi, Tangerang 15214</p>
+												<p style={{color:'black'}}>Pantai Indah Kapuk 2 - Kosambi, Tangerang 15214</p>
 											</div>
 										</li>
 										<li>
 											<div className="footer-address-icon">
-												<i className="icon-call" />
+												<i className="icon-call" style={{color:'black'}}/>
 											</div>
 											<div className="footer-address-info">
-												<p><a href="tel:+0123-456789">+62812-2334-6899</a></p>
+												<p style={{color:'black'}}><a href="tel:+0123-456789">+62812-2334-6899</a></p>
 											</div>
 										</li>
 										<li>
 											<div className="footer-address-icon">
-												<i className="icon-mail" />
+												<i className="icon-mail" style={{color:'black'}}/>
 											</div>
 											<div className="footer-address-info">
-												<p><a href="mailto:example@example.com">example@example.com</a></p>
+												<p style={{color:'black'}}><a href="mailto:example@example.com">example@example.com</a></p>
 											</div>
 										</li>
 									</ul>
@@ -92,12 +92,12 @@ class Footer_v1 extends Component {
 							</div>
 							<div className="col-xl-3 col-md-6 col-sm-12 col-12">
 								<div className="footer-widget footer-menu-widget clearfix">
-									<h4 className="footer-title">Services</h4>
+									<h4 className="footer-title" style={{color:'black'}}>Services</h4>
 									<div className="footer-menu go-top">
 										<ul>
-											<li><Link to="/about">About</Link></li>
-											<li><Link to="/shop">Shop</Link></li>
-											<li><Link to="/contact">Contact us</Link></li>
+											<li style={{color:'black'}}><Link to="/about">About</Link></li>
+											<li style={{color:'black'}}><Link to="/shop">Shop</Link></li>
+											<li style={{color:'black'}}><Link to="/contact">Contact us</Link></li>
 										</ul>
 									</div>
 								</div>
@@ -106,7 +106,7 @@ class Footer_v1 extends Component {
 
 							<div className="col-xl-3 col-md-6 col-sm-12 col-12">
 								<div className="footer-widget footer-newsletter-widget">
-									<h4 className="footer-title">Social Media</h4>
+									<h4 className="footer-title" style={{color:'black'}}>Social Media</h4>
 									<div >
 										<Social />
 									</div>
