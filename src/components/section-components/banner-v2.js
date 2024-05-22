@@ -70,7 +70,7 @@ class BannerV2 extends Component {
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'center', paddingTop: '2em' }}>
                         <img
-                            src="./assets/img/banner/BANNER.JPG"
+                            src="./assets/img/banner/BANNER.jpg"
                             alt={imagealt}
                             style={{ objectFit: 'cover', width: '85%', height: '100%', borderRadius: '0.5em' }}
                         />
