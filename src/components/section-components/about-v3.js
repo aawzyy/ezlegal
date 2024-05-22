@@ -12,7 +12,7 @@ class AboutV3 extends Component {
 			<div>
 				<div style={{ flexDirection: 'row', display: 'flex', gap: '3em', justifyContent: 'center', paddingTop: '5em', paddingBottom: '5em' }}>
 
-					<img src={publicUrl + "assets/img/banner/employee-img.JPG"} alt="#" style={{ objectFit: 'cover', width: '20em', height: '100%', borderRadius: '0.5em' }} /> {/* Adjust image width if needed */}
+					<img src={publicUrl + "assets/img/banner/employee-img.jpg"} alt="#" style={{ objectFit: 'cover', width: '20em', height: '100%', borderRadius: '0.5em' }} /> {/* Adjust image width if needed */}
 					<div style={{ width: '50%' }}>
 						<div style={{ display: 'flex' }}><h5 className="gradient-background">About Us</h5></div>
 						<h1 style={{ color: '#5092D8' }}>Kenapa Harus Memilih<br />EzLegal?</h1>
