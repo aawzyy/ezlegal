@@ -1,0 +1,24 @@
+.product-card{
+    padding: 2em;
+    border-radius: 2em;
+    background-color: white;
+}
+.product-card h4{
+    font-weight: lighter;
+}
+.product-card h2{
+    font-size: 3em;
+}
+.product-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding-bottom: 5em;
+    padding-top: 2em;
+}
+
+@media (max-width: 765px) {
+    .product-container{
+        flex-direction: column; 
+    }
+  }

@@ -20,7 +20,7 @@ class NavbarV2 extends Component {
 								<div className="col">
 									<div className="site-logo-wrap">
 										<div className="site-logo go-top">
-											<Link to="/"><img src={publicUrl + "assets/img/Logo Ezlegal.png"} alt="Logo" style={{ height: '70px' }} /></Link>
+											<Link to="/"><img src={publicUrl + "assets/img/logo.png"} alt="Logo" style={{ height: '2em' }} /></Link>
 										</div>
 									</div>
 								</div>
@@ -30,11 +30,11 @@ class NavbarV2 extends Component {
 											<div className="ltn__main-menu" >
 												<ul style={{justifyContent:'center'}}>
 													<li className=""><Link to="/">Home</Link></li>
-													<li className=""><Link to="/about">About Us</Link></li>
-													<li className=""><Link to="/about">Contact</Link></li>
-													<li className=""><Link to="/shop">Product</Link></li>
+													<li className=""><Link to="/">About Us</Link></li>
+													<li className=""><Link to="/">Contact</Link></li>
+													<li className=""><Link to="/">Product</Link></li>
 													
-													<li className="" style={{color:'white',backgroundColor:'#5291D6', fontWeight:'bold',borderRadius:'0.5em'}}><Link to="/add-listing" style={{color:'white',fontWeight:'bold'}}>Daftar Sekarang</Link></li>
+													<li className="" style={{color:'white',backgroundColor:'#5291D6', fontWeight:'bold',borderRadius:'0.5em'}}><Link to="/" style={{color:'white',fontWeight:'bold'}}>Daftar Sekarang</Link></li>
 												</ul>
 											</div>
 										</nav>
@@ -67,123 +67,22 @@ class NavbarV2 extends Component {
 							</div>
 							<button className="ltn__utilize-close">×</button>
 						</div>
-						<div className="ltn__utilize-menu-search-form">
-							<form action={"#"}>
-								<input type="text" placeholder="Search..." />
-								<button><i className="fas fa-search" /></button>
-							</form>
-						</div>
+						
 						<div className="ltn__utilize-menu">
 							<ul>
-								<li><a href="#">Home</a>
-									<ul className="sub-menu">
-										<li><Link to="/">Home Style 01</Link></li>
-										<li><Link to="/home-v2">Home Style 02</Link></li>
-										<li><Link to="/home-v3">Home Style 03</Link></li>
-										<li><Link to="/home-v4">Home Style 04</Link></li>
-										<li><Link to="/home-v5">Home Style 05 <span className="menu-item-badge">video</span></Link></li>
-										<li><Link to="/home-v6">Home Style 06</Link></li>
-										<li><Link to="/home-v7">Home Style 07</Link></li>
-										<li><Link to="/home-v8">Home Style 08</Link></li>
-										<li><Link to="/home-v9">Home Style 09</Link></li>
-										<li><Link to="/home-v10">Home Style 10</Link></li>
-									</ul>
-								</li>
-								<li><Link to="/about">About</Link>
-									<ul className="sub-menu">
-										<li><Link to="/about">About</Link></li>
-										<li><Link to="/service">Services</Link></li>
-										<li><Link to="/service-details">Service Details</Link></li>
-										<li><Link to="/portfolio">Portfolio</Link></li>
-										<li><Link to="/portfolio-v2">Portfolio - 02</Link></li>
-										<li><Link to="/portfolio-details">Portfolio Details</Link></li>
-										<li><Link to="/team">Team</Link></li>
-										<li><Link to="/team-details">Team Details</Link></li>
-										<li><Link to="/faq">FAQ</Link></li>
-										<li><Link to="/location">Google Map Locations</Link></li>
-									</ul>
-								</li>
-								<li><Link to="/shop">Shop</Link>
-									<ul className="sub-menu">
-										<li><Link to="/shop">Shop</Link></li>
-										<li><Link to="/shop-grid">Shop Grid</Link></li>
-										<li><Link to="/shop-left-sidebar">Shop Left sidebar</Link></li>
-										<li><Link to="/shop-right-sidebar">Shop Right sidebar</Link></li>
-										<li><Link to="/product-details">Shop Details</Link></li>
-										<li><Link to="/cart">Cart</Link></li>
-										<li><Link to="/checkout">Checkout</Link></li>
-										<li><Link to="/my-account">My Account</Link></li>
-										<li><Link to="/login">Sign in</Link></li>
-										<li><Link to="/register">Register</Link></li>
-									</ul>
-								</li>
-								<li><Link to="/blog-grid">News</Link>
-									<ul className="sub-menu">
-										<li><Link to="/blog">News</Link></li>
-										<li><Link to="/blog-grid">News Grid</Link></li>
-										<li><Link to="/blog-left-sidebar">News Left sidebar</Link></li>
-										<li><Link to="/blog-right-sidebar">News Right sidebar</Link></li>
-										<li><Link to="/blog-details">News details</Link></li>
-									</ul>
-								</li>
-								<li><Link to="#">Pages</Link>
-									<ul className="sub-menu">
-										<li><Link to="/about">About</Link></li>
-										<li><Link to="/service">Services</Link></li>
-										<li><Link to="/service-details">Service Details</Link></li>
-										<li><Link to="/portfolio">Portfolio</Link></li>
-										<li><Link to="/portfolio-2">Portfolio - 02</Link></li>
-										<li><Link to="/portfolio-details">Portfolio Details</Link></li>
-										<li><Link to="/team">Team</Link></li>
-										<li><Link to="/team-details">Team Details</Link></li>
-										<li><Link to="/faq">FAQ</Link></li>
-										<li><Link to="/history">History</Link></li>
-										<li><Link to="/add-listing">Add Listing</Link></li>
-										<li><Link to="/locations">Google Map Locations</Link></li>
-										<li><Link to="/404">404</Link></li>
-										<li><Link to="/contact">Contact</Link></li>
-										<li><Link to="/coming-soon">Coming Soon</Link></li>
-									</ul>
-								</li>
-								<li><Link to="/contact">Contact</Link></li>
+								<li><Link to="/">Home</Link></li>
+								<li><Link to="/about">About</Link></li>
+								<li><Link to="/shop">Contact</Link></li>
+								<li><Link to="/blog-grid">Product</Link></li>
 							</ul>
 						</div>
-						<div className="ltn__utilize-buttons ltn__utilize-buttons-2">
-							<ul>
-								<li>
-									<Link to="/my-account" title="My Account">
-										<span className="utilize-btn-icon">
-											<i className="far fa-user" />
-										</span>
-										My Account
-									</Link>
-								</li>
-								<li>
-									<Link to="/wishlist" title="Wishlist">
-										<span className="utilize-btn-icon">
-											<i className="far fa-heart" />
-											<sup>3</sup>
-										</span>
-										Wishlist
-									</Link>
-								</li>
-								<li>
-									<Link to="/cart" title="Shoping Cart">
-										<span className="utilize-btn-icon">
-											<i className="fas fa-shopping-cart" />
-											<sup>5</sup>
-										</span>
-										Shoping Cart
-									</Link>
-								</li>
-							</ul>
-						</div>
+						
 						<div className="ltn__social-media-2">
 							<ul>
-								<li><a href="#" title="Facebook"><i className="fab fa-facebook-f" /></a></li>
-								<li><a href="#" title="Twitter"><i className="fab fa-twitter" /></a></li>
-								<li><a href="#" title="Linkedin"><i className="fab fa-linkedin" /></a></li>
-								<li><a href="#" title="Instagram"><i className="fab fa-instagram" /></a></li>
+								<li><a href="https://www.facebook.com/ezlegal.id" title="Facebook"><i className="fab fa-facebook-f" /></a></li>
+								<li><a href="https://www.twitter.com/ezlegal.id" title="Twitter"><i className="fab fa-twitter" /></a></li>
+								<li><a href="https://www.linkedin.com/company/ezlegal-id/" title="Linkedin"><i className="fab fa-linkedin" /></a></li>
+								<li><a href="https://www.instagram.com/ezlegal.id" title="Instagram"><i className="fab fa-instagram" /></a></li>
 							</ul>
 						</div>
 					</div>

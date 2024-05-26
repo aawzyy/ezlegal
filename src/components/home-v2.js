@@ -16,13 +16,21 @@ import Testimonial from './section-components/testimonial-v2';
 import BlogSlider from './blog-components/blog-slider-v1';
 import CallToActionV1 from './section-components/call-to-action-v1';
 import Footer from './global-components/footer';
+import Story from './section-components/Story';
+import Product from './section-components/Product';
+import Review from './section-components/Review';
+import Addon from './section-components/Addon';
 
 const Home_V2 = () => {
     return <div>
         <Navbar />
         <Banner />
         <Aboutv3 />
-        <Property/>
+        {/* <Property/> */}
+        <Story/>
+        <Product/>
+        <Review/>
+        <Addon/>
         <Footer />
     </div>
 }

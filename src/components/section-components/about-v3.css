@@ -5,7 +5,20 @@
   justify-content: center;
   color: white;
   padding: 0.5em;
-  border-radius: 0.5em;
+  font-size: 3vw;
+  border-radius: 5em;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* Kolom kiri 1fr dan kolom kanan 3fr */
+  grid-template-rows: repeat(5, 1fr); /* 5 baris */
+  gap: 10px; /* Jarak antar elemen grid */
+  padding: 5%; /* Padding di sekitar grid */
+}
+
+.grid-item {
+  align-content: center;
+  text-align: left;
 }
 
 @font-face {

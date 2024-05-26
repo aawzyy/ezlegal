@@ -17831,8 +17831,8 @@ input.cart-plus-minus-box {
     ## Button
 --------------------------------------- */
 .btn-wrapper {
-  display: block;
-  margin-top: 30px;
+
+
 }
 
 .btn {
@@ -17857,7 +17857,7 @@ input.cart-plus-minus-box {
 
 .theme-btn-1 {
   background-color: #fff;
-  color: #000;
+  color: #5092D8;
   border-radius: 0.5em;
 }
 .theme-btn-1:hover {
@@ -18057,7 +18057,7 @@ input.cart-plus-minus-box {
 
 @media only screen and (max-width: 767px) {
   .btn {
-    padding: 10px 20px;
+    padding: 5px 10px;
     font-size: 14px;
   }
   [type="submit"].btn {

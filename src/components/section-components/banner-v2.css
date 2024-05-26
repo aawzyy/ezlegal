@@ -1,3 +1,16 @@
+.banner-bg {
+
+  width: 100%;
+  height: 115vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 0;
+}
+
+
+
+
 .iframe-popup {
   position: fixed;
   top: 50%;
@@ -28,15 +41,21 @@
   border: none;
   cursor: pointer;
 }
+.theme-btn-1 {
+  font-size: 1vw;
+}
 
-.cloud {
-    position: absolute;
-  }
   
  
-  @media (max-width: 508px) {
-    .cloud {
-     bottom: 0;
+  @media (max-width: 765px) {
+    .banner-bg{
+      height: 30vh;
+    }
+    .banner-text{
+      padding-left: 3em;
+    }
+    .button {
+      font-size: 20px;
     }
   }
   

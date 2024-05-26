@@ -10,74 +10,58 @@ class AboutV3 extends Component {
 		let imagealt = 'image';
 		return (
 			<div>
-				<div style={{ flexDirection: 'row', display: 'flex', gap: '3em', justifyContent: 'center', paddingTop: '5em', paddingBottom: '5em' }}>
-
-					<img src={publicUrl + "assets/img/banner/employee-img.jpg"} alt="#" style={{ objectFit: 'cover', width: '20em', height: '100%', borderRadius: '0.5em' }} /> {/* Adjust image width if needed */}
-					<div style={{ width: '50%' }}>
-						<div style={{ display: 'flex' }}><h5 className="gradient-background">About Us</h5></div>
-						<h1 style={{ color: '#5092D8' }}>Kenapa Harus Memilih<br />EzLegal?</h1>
-						<h4 style={{ fontWeight: '300' }}>Kami memahami betapa pentingnya legalitas dalam menjalankan bisnis, dan kami berkomitmen untuk memberikan solusi yang cepat, akurat, dan sesuai dengan peraturan yang berlaku. Dengan pendekatan yang personal dan transparan, kami memastikan setiap proses berjalan lancar dan efisien, sehingga Anda dapat fokus mengembangkan bisnis Anda tanpa khawatir tentang aspek legal. Kepercayaan dan kepuasan klien adalah prioritas utama kami, dan kami siap menjadi mitra terpercaya Anda dalam membangun fondasi hukum yang kuat untuk perusahaan Anda.</h4>
-					</div>
-
-
-				</div>
-				<div>
-					<h1 style={{ textAlign: 'center' }}>BAGAIMANA EZLEGAL DAPAT<br />MEMBANTU BISNIS ANDA?</h1>
-
-					<div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', gap: '1em', paddingTop: '5em' }} >
-						<div style={{width:'200px',display:'flex',alignItems:'center',flexDirection:'column'}}>
-							<div style={{ backgroundColor: '#5092D8', width: '100px', height: '100px', borderRadius: '10em', alignContent: 'center', display: 'flex', justifyContent: 'center' }}>
-								<img
-									src={publicUrl + "assets/img/banner/icon-help-1.svg"}
-									alt={imagealt}
-									style={{ width: '50px' }}
-								/>
-							</div>
-							<h3 style={{textAlign:'center',fontWeight:'500'}}>Pendirian Perusashaan</h3>
+				<div style={{ flexDirection: 'column', display: 'flex', alignItems: 'center', paddingTop: '5em', paddingBottom: '5em' }}>
+					<div style={{ display: 'flex' }}><h5 className="gradient-background">About Us</h5></div>
+					<h1 style={{ color: '#5092D8', fontSize: '4vw' }}>Kenapa Harus Memilih EzLegal?</h1>
+					<div className="grid-container">
+						<div className="grid-item" style={{textAlign:'right'}}>
+							<img src='assets/img/banner/used/1.png' style={{ objectFit: 'contain',height:'30vh' }} />
 						</div>
-
-						<div style={{width:'200px',display:'flex',alignItems:'center',flexDirection:'column'}}>
-							<div style={{ backgroundColor: '#5092D8', width: '100px', height: '100px', borderRadius: '10em', alignContent: 'center', display: 'flex', justifyContent: 'center' }}>
-								<img
-									src={publicUrl + "assets/img/banner/icon-help-2.svg"}
-									alt={imagealt}
-									style={{ width: '50px' }}
-								/>
+						<div className="grid-item">
+							<div>
+								<h3>Konsultasi mendalam tentang kebutuhan milenial</h3>
+								<p>Kami memahami bahwa milenial memiliki gaya kerja yang dinamis dan fleksibel. kami menawarkansolusi legal yang disesuaikan dengan kebutuhan dan gaya milenial.</p>
 							</div>
-							<h3 style={{textAlign:'center',fontWeight:'500'}}>Pembuatan / Perubahan Dokumen</h3>
 						</div>
-						<div style={{width:'200px',display:'flex',alignItems:'center',flexDirection:'column'}}>
-							<div style={{ backgroundColor: '#5092D8', width: '100px', height: '100px', borderRadius: '10em', alignContent: 'center', display: 'flex', justifyContent: 'center' }}>
-								<img
-									src={publicUrl + "assets/img/banner/icon-help-3.svg"}
-									alt={imagealt}
-									style={{ width: '50px' }}
-								/>
-							</div>
-							<h3 style={{textAlign:'center',fontWeight:'500'}}>Penutupan Perusahaan</h3>
+						<div className="grid-item" style={{textAlign:'right'}}>
+							<img src='assets/img/banner/used/2.png' style={{ objectFit: 'contain',height:'30vh' }} />
 						</div>
-						<div style={{width:'200px',display:'flex',alignItems:'center',flexDirection:'column'}}>
-							<div style={{ backgroundColor: '#5092D8', width: '100px', height: '100px', borderRadius: '10em', alignContent: 'center', display: 'flex', justifyContent: 'center' }}>
-								<img
-									src={publicUrl + "assets/img/banner/icon-help-4.svg"}
-									alt={imagealt}
-									style={{ width: '50px' }}
-								/>
+						<div className="grid-item">
+							<div>
+								<h3>Layanan digital dan mudah diakses</h3>
+								<p>Layanan kami tersedia secara online, memudahkan anda mengakses bantuan dan informasi terbaru kapan dan dimana saja.</p>
 							</div>
-							<h3 style={{textAlign:'center',fontWeight:'500'}}>Penutupan Perusahaan</h3>
 						</div>
-						<div style={{width:'200px',display:'flex',alignItems:'center',flexDirection:'column'}}>
-							<div style={{ backgroundColor: '#5092D8', width: '100px', height: '100px', borderRadius: '10em', alignContent: 'center', display: 'flex', justifyContent: 'center' }}>
-								<img
-									src={publicUrl + "assets/img/banner/icon-help-5.svg"}
-									alt={imagealt}
-									style={{ width: '50px' }}
-								/>
+						<div className="grid-item" style={{textAlign:'right'}}>
+							<img src='assets/img/banner/used/3.png' style={{ objectFit: 'contain',height:'30vh'}} />
+						</div>
+						<div className="grid-item">
+							<div>
+								<h3>Proses cepat dan efisien</h3>
+								<p>Mengutamakan efisiensi dengan proses pembuatan perusahaan yang cepat dan tidak berbelit-belit.</p>
 							</div>
-							<h3 style={{textAlign:'center',fontWeight:'500'}}>Perizinan Khusus</h3>
+						</div>
+						<div className="grid-item" style={{textAlign:'right'}}>
+							<img src='assets/img/banner/used/4.png' style={{ objectFit: 'contain',height:'30vh' }} />
+						</div>
+						<div className="grid-item">
+							<div>
+								<h3>Dukungan berkelanjutan</h3>
+								<p>Tidak hanya membantu dalam tahap awal, kami juga menyediakan dukungan berkelanjutan untuk emmastikan bisnis anda berjalan semaksimal mungkin.</p>
+							</div>
+						</div>
+						<div className="grid-item" style={{textAlign:'right'}}>
+							<img src='assets/img/banner/used/5.png' style={{ objectFit: 'contain',height:'30vh' }} />
+						</div>
+						<div className="grid-item">
+							<div>
+								<h3>Jaringan dan kolaborasi</h3>
+								<p>Melalui jaringan luas kami, anda bisa mendapatkan akses ke berbagai peluang kolaborasi dan kemitraan yang dapat mendukung pertumbuhan bisnis anda.</p>
+							</div>
 						</div>
 					</div>
 				</div>
+				
 			</div>
 
 		)
