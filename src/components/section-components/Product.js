@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import "./Product.css"
 
 const Product = () => {
@@ -43,13 +43,16 @@ const Product = () => {
                 <div style={{ display: 'flex' }}><h1 style={{ backgroundColor: '#66B28B', padding: '0.3em', paddingInline: '0.5em', borderRadius: '100vw', color: "white" }}>Our Product</h1></div>
                 <div className='product-container'>
                     <div className='product-card'>
-                        <img />
-                        <h4 style={{ fontWeight: 'bold', color: '#66B28B' }}>PT Perorangan</h4>
-                        <h4 style={{ textDecoration: 'line-through', color: 'red' }}>Rp 4.000.000</h4>
-                        <div style={{ flexDirection: 'row', display: 'flex', alignItems: 'center' }}>
-                            <h4>Rp</h4>
-                            <h2>2.5JT</h2>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                            <img src='assets/img/banner/used/icon-1.png' style={{ width: '10em' }} />
+                            <h4 style={{ fontWeight: 'bold', color: '#66B28B' }}>PT Perorangan</h4>
+                            <h4 style={{ textDecoration: 'line-through', color: 'red' }}>Rp 4.000.000</h4>
+                            <div style={{ flexDirection: 'row', display: 'flex', alignItems: 'center' }}>
+                                <h4>Rp</h4>
+                                <h2>2.499 K</h2>
+                            </div>
                         </div>
+
                         <p>✓ Konsultasi Legal</p>
                         <p>✓ Pengecekan & Pemesanan Nama PT</p>
                         <p>✓ Akta Pendirian</p>
@@ -59,17 +62,23 @@ const Product = () => {
                         <p>✓ NIB / Izin Usaha</p>
                         <p>✓ SKT KPP</p>
                         <p>✓ Pembukaan Rekening Giro BCA/BNI/BRI</p>
-                        <button onClick={() => toggleIframe(1)} style={{ padding: '1em', borderRadius: '1em', backgroundColor: '#5092D8', color: 'white', fontWeight: 'bolder' }}>Konsultasi Sekarang</button>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                            <button onClick={() => toggleIframe(1)} style={{ padding: '1em', borderRadius: '1em', backgroundColor: '#5092D8', color: 'white', fontWeight: 'bolder' }}>Konsultasi Sekarang</button>
+
+                        </div>
 
                     </div>
                     <div className='product-card'>
-                        <img />
-                        <h4 style={{ fontWeight: 'bold', color: '#66B28B' }}>Pembuatan CV</h4>
-                        <h4 style={{ textDecoration: 'line-through', color: 'red' }}>Rp 6.000.000</h4>
-                        <div style={{ flexDirection: 'row', display: 'flex', alignItems: 'center' }}>
-                            <h4>Rp</h4>
-                            <h2>3JT</h2>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                            <img src='assets/img/banner/used/icon-2.png' style={{ width: '10em' }} />
+                            <h4 style={{ fontWeight: 'bold', color: '#66B28B' }}>Pembuatan CV</h4>
+                            <h4 style={{ textDecoration: 'line-through', color: 'red' }}>Rp 6.000.000</h4>
+                            <div style={{ flexDirection: 'row', display: 'flex', alignItems: 'center' }}>
+                                <h4>Rp</h4>
+                                <h2>2.999 K</h2>
+                            </div>
                         </div>
+
                         <p>✓ Konsultasi Legal</p>
                         <p>✓ Pengecekan & Pemesanan Nama PT</p>
                         <p>✓ Akta Pendirian</p>
@@ -79,16 +88,22 @@ const Product = () => {
                         <p>✓ NIB / Izin Usaha</p>
                         <p>✓ SKT KPP</p>
                         <p>✓ Pembukaan Rekening Giro BCA/BNI/BRI</p>
-                        <button onClick={() => toggleIframe(3)} style={{ padding: '1em', borderRadius: '1em', backgroundColor: '#5092D8', color: 'white', fontWeight: 'bolder' }}>Konsultasi Sekarang</button>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                            <button onClick={() => toggleIframe(1)} style={{ padding: '1em', borderRadius: '1em', backgroundColor: '#5092D8', color: 'white', fontWeight: 'bolder' }}>Konsultasi Sekarang</button>
+
+                        </div>
                     </div>
                     <div className='product-card'>
-                        <img />
-                        <h4 style={{ fontWeight: 'bold', color: '#66B28B' }}>Pendirian PT</h4>
-                        <h4 style={{ textDecoration: 'line-through', color: 'red' }}>Rp 14.000.000</h4>
-                        <div style={{ flexDirection: 'row', display: 'flex', alignItems: 'center' }}>
-                            <h4>Rp</h4>
-                            <h2>5JT</h2>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                            <img src='assets/img/banner/used/icon-3.png' style={{ width: '10em' }} />
+                            <h4 style={{ fontWeight: 'bold', color: '#66B28B' }}>Pendirian PT</h4>
+                            <h4 style={{ textDecoration: 'line-through', color: 'red' }}>Rp 14.000.000</h4>
+                            <div style={{ flexDirection: 'row', display: 'flex', alignItems: 'center' }}>
+                                <h4>Rp</h4>
+                                <h2>4.999 K</h2>
+                            </div>
                         </div>
+
                         <p>✓ Konsultasi Legal</p>
                         <p>✓ Pengecekan & Pemesanan Nama PT</p>
                         <p>✓ Akta Pendirian</p>
@@ -100,7 +115,10 @@ const Product = () => {
                         <p>✓ Pembukaan Rekening Giro BCA/BNI/BRI</p>
                         <p>✓ Pengelolaan Keuangan & Perpajakan 1 Tahun</p>
                         <p>✓ Pembukaan Rekening Giro BCA/BNI/BRI</p>
-                        <button onClick={() => toggleIframe(2)} style={{ padding: '1em', borderRadius: '1em', backgroundColor: '#5092D8', color: 'white', fontWeight: 'bolder' }}>Konsultasi Sekarang</button>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                            <button onClick={() => toggleIframe(1)} style={{ padding: '1em', borderRadius: '1em', backgroundColor: '#5092D8', color: 'white', fontWeight: 'bolder' }}>Konsultasi Sekarang</button>
+
+                        </div>
                     </div>
                 </div>
             </div>

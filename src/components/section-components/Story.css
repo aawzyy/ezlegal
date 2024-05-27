@@ -4,13 +4,24 @@
     flex-direction: row;
 }
 .story-img{
-    bottom:0;
+    
     object-fit: cover;
-    width: 30vw;
+    width: 25vw;
     display: flex;
 }
 .story-text {
-    padding: 10vw;
+    padding: 5vw;
+
+}
+.button-cta-story{
+    background-color: #5092D8;
+    color: white;
+    padding: 0.5em;
+    padding-inline: 2em;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 100vw;
+   
 }
 .story-text h1{
     color: white;
@@ -18,15 +29,23 @@
 .story-text p{
     color: white;
 }
+.segitiga{
+    display: flex;
+    justify-content: center;
+}
 @media (max-width: 768px) {
     .story-container{
         flex-direction: column;
     }
     .story-img{
+        padding-top: 2em;
         top:0;
         width: 80vw;
     }
     .story-text {
         padding-bottom: 0;
+    }
+    .segitiga{
+        display: none;
     }
   }

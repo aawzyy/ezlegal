@@ -51,7 +51,7 @@ class Footer_v1 extends Component {
 								<div className="footer-widget footer-about-widget">
 									<div className="footer-logo">
 										<div className="site-logo">
-											<img src={publicUrl + "assets/img/logo.png"} alt="Logo" style={{height:'5em'}} />
+											<img src={publicUrl + "assets/img/logo-ezlegal.png"} alt="Logo" style={{height:'5em'}} />
 										</div>
 									</div>
 								</div>

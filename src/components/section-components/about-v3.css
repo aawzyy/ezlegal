@@ -5,7 +5,7 @@
   justify-content: center;
   color: white;
   padding: 0.5em;
-  font-size: 3vw;
+  font-size: 1.5em;
   border-radius: 5em;
 }
 .grid-container {
@@ -19,6 +19,20 @@
 .grid-item {
   align-content: center;
   text-align: left;
+}
+.kenapa-memilih-ezlegal{
+  font-size:3em;
+}
+
+@media (max-width: 765px) {
+  .kenapa-memilih-ezlegal{
+    font-size: 4vw;
+  }
+  .gradient-background {
+
+    font-size: 3vw;
+
+  }
 }
 
 @font-face {

@@ -8,9 +8,6 @@
   background-position-y: 0;
 }
 
-
-
-
 .iframe-popup {
   position: fixed;
   top: 50%;
@@ -41,21 +38,86 @@
   border: none;
   cursor: pointer;
 }
+
 .theme-btn-1 {
   font-size: 1vw;
 }
 
-  
- 
-  @media (max-width: 765px) {
-    .banner-bg{
-      height: 30vh;
-    }
-    .banner-text{
-      padding-left: 3em;
-    }
-    .button {
-      font-size: 20px;
-    }
+.banner-textgroup {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 1em
+}
+
+.banner-textgroup h5{
+  font-size: 3em;
+}
+.banner-textgroup h1{
+  font-size: 4em;
+}
+.text-legal{
+  font-size: 2vw
+
+}
+.judul-satset{
+  object-fit: cover;
+  width: 40%;
+  height: 100%;
+  border-radius: 0.5em;
+}
+.mobile-banner-a{
+  display: none;
+}
+
+
+
+@media (max-width: 765px) {
+  .ltn__slider-11-active{
+    display: none;
+  }
+  .banner-bg {
+    height: 30vh;
+  }
+  .mobile-banner-a{
+    display: inline;
+    width: 90%;
+  }
+
+  .banner-text {
+    padding-left: 3em;
+  }
+  .judul-satset{
+    width: 80%;
+  }
+
+  .banner-textgroup {
+   
+    flex-direction: column;
+    gap: 0em;
+    align-items: center;
   }
   
+  .banner-textgroup h5 {
+  font-size: 2em;
+  }
+  .banner-textgroup h1 {
+    font-size: 2.5em;
+    }
+  .text-legal{
+    font-size: 4vw;
+
+  }
+  .btn-wrapper{
+    justify-content: center;
+  }
+
+  .tombol {
+    font-size: 4vw;
+  }
+
+  .segitiga-banner{
+    display: flex;
+    justify-content: center;
+}
+}

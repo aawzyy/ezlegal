@@ -12,7 +12,7 @@ class AboutV3 extends Component {
 			<div>
 				<div style={{ flexDirection: 'column', display: 'flex', alignItems: 'center', paddingTop: '5em', paddingBottom: '5em' }}>
 					<div style={{ display: 'flex' }}><h5 className="gradient-background">About Us</h5></div>
-					<h1 style={{ color: '#5092D8', fontSize: '4vw' }}>Kenapa Harus Memilih EzLegal?</h1>
+					<h1 style={{ color: '#5092D8' }} className='kenapa-memilih-ezlegal'>Kenapa Harus Memilih EzLegal?</h1>
 					<div className="grid-container">
 						<div className="grid-item" style={{textAlign:'right'}}>
 							<img src='assets/img/banner/used/1.png' style={{ objectFit: 'contain',height:'30vh' }} />
