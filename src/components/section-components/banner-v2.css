@@ -1,13 +1,19 @@
 .banner-bg {
 
-  width: 100%;
+  width: 80%;
   height: 115vh;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: 0;
 }
+.isi-sateset{
+  object-fit: cover;
+  width: 70%;
+  height: 100%;
+  border-radius: 0.5em;
 
+}
 .iframe-popup {
   position: fixed;
   top: 50%;
@@ -47,11 +53,12 @@
   display: flex;
   flex-direction: column;
   align-content: center;
-  gap: 1em
+    
 }
 
 .banner-textgroup h5{
-  font-size: 3em;
+  font-size: 2.5em;
+ 
 }
 .banner-textgroup h1{
   font-size: 4em;
@@ -76,6 +83,9 @@
   .ltn__slider-11-active{
     display: none;
   }
+  .isi-sateset{
+    width: 100%;
+  }
   .banner-bg {
     height: 30vh;
   }
@@ -99,7 +109,7 @@
   }
   
   .banner-textgroup h5 {
-  font-size: 2em;
+  font-size: 1.8em;
   }
   .banner-textgroup h1 {
     font-size: 2.5em;

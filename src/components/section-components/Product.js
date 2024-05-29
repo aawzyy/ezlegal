@@ -39,89 +39,110 @@ const Product = () => {
                     ></iframe>
                 </div>
             )}
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: '2em', backgroundColor: '#EDF9FF' }}>
-                <div style={{ display: 'flex' }}><h1 style={{ backgroundColor: '#66B28B', padding: '0.3em', paddingInline: '0.5em', borderRadius: '100vw', color: "white" }}>Our Product</h1></div>
-                <div className='product-container'>
-                    <div className='product-card'>
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                            <img src='assets/img/banner/used/icon-1.png' style={{ width: '10em' }} />
-                            <h4 style={{ fontWeight: 'bold', color: '#66B28B' }}>PT Perorangan</h4>
-                            <h4 style={{ textDecoration: 'line-through', color: 'red' }}>Rp 4.000.000</h4>
-                            <div style={{ flexDirection: 'row', display: 'flex', alignItems: 'center' }}>
-                                <h4>Rp</h4>
-                                <h2>2.499 K</h2>
+            <div style={{ backgroundColor: '#EDF9FF', display: 'flex', justifyContent: 'center' }} id='section4'>
+                <div className='product-width'>
+                    <div style={{ display: 'flex' }}><h1 style={{ backgroundColor: '#66B28B', padding: '0.3em', paddingInline: '0.5em', borderRadius: '100vw', color: "white" }}>Our Product</h1></div>
+                    <div className='product-container'>
+                        <div style={{ display: 'flex', flexDirection: 'column' }}>
+                            <img src='assets/img/banner/used/a1.png' />
+                            <div className='product-card'>
+
+                                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+
+                                    <h4 style={{ fontWeight: 'bold', color: '#66B28B' }}>PT Perorangan</h4>
+                                    <h4 style={{ textDecoration: 'line-through', color: 'red' }}>Rp 4.000.000</h4>
+                                    <div style={{ flexDirection: 'row', display: 'flex', alignItems: 'center' }}>
+                                        <h4>Rp</h4>
+                                        <h2>2.499 K</h2>
+                                    </div>
+                                </div>
+                                <div style={{paddingInline:'2em'}}>
+                                    <p>✓ Konsultasi Legal</p>
+                                    <p>✓ Pengecekan & Pemesanan Nama PT</p>
+                                    <p>✓ Akta Pendirian</p>
+                                    <p>✓ SKT Kemenkumham</p>
+                                    <p>✓ Akun OSS RBA</p>
+                                    <p>✓ NPWP</p>
+                                    <p>✓ NIB / Izin Usaha</p>
+                                    <p>✓ SKT KPP</p>
+                                    <p>✓ Pembukaan Rekening Giro</p>
+                                </div>
+
+                            </div>
+                            <div style={{}}>
+                                <button onClick={() => toggleIframe(1)} style={{ width: '100%', paddingBottom: '1em', paddingTop: '1em', borderRadius: '0 0 2em 2em', backgroundColor: '#5092D8', color: 'white', fontWeight: 'bolder',fontSize:'1.5em'}}>Konsultasi Sekarang</button>
+
+                            </div>
+                        </div>
+                        <div style={{ display: 'flex', flexDirection: 'column' }}>
+                            <img src='assets/img/banner/used/b.png' />
+                            <div className='product-card'>
+                                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+
+                                    <h4 style={{ fontWeight: 'bold', color: '#66B28B' }}>Pembuatan CV</h4>
+                                    <h4 style={{ textDecoration: 'line-through', color: 'red' }}>Rp 6.000.000</h4>
+                                    <div style={{ flexDirection: 'row', display: 'flex', alignItems: 'center' }}>
+                                        <h4>Rp</h4>
+                                        <h2>2.999 K</h2>
+                                    </div>
+                                </div>
+                                <div style={{paddingInline:'2em'}}>
+                                    <p>✓ Konsultasi Legal</p>
+                                    <p>✓ Pengecekan & Pemesanan Nama PT</p>
+                                    <p>✓ Akta Pendirian</p>
+                                    <p>✓ SKT Kemenkumham</p>
+                                    <p>✓ Akun OSS RBA</p>
+                                    <p>✓ NPWP</p>
+                                    <p>✓ NIB / Izin Usaha</p>
+                                    <p>✓ SKT KPP</p>
+                                    <p>✓ Pembukaan Rekening Giro</p>
+                                </div>
+
+
+                            </div>
+                            <div style={{}}>
+                                <button onClick={() => toggleIframe(1)} style={{ width: '100%', paddingBottom: '1em', paddingTop: '1em', borderRadius: '0 0 2em 2em', backgroundColor: '#5092D8', color: 'white', fontWeight: 'bolder',fontSize:'1.5em' }}>Konsultasi Sekarang</button>
+
+                            </div>
+                        </div>
+                        <div style={{ display: 'flex', flexDirection: 'column' }}>
+                            <img src='assets/img/banner/used/c.png' />
+                            <div className='product-card'>
+                                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+
+                                    <h4 style={{ fontWeight: 'bold', color: '#66B28B' }}>Pendirian PT</h4>
+                                    <h4 style={{ textDecoration: 'line-through', color: 'red' }}>Rp 14.000.000</h4>
+                                    <div style={{ flexDirection: 'row', display: 'flex', alignItems: 'center' }}>
+                                        <h4>Rp</h4>
+                                        <h2>4.999 K</h2>
+                                    </div>
+                                </div>
+                                <div style={{paddingInline:'2em'}}>
+                                    <p>✓ Konsultasi Legal</p>
+                                    <p>✓ Pengecekan & Pemesanan Nama PT</p>
+                                    <p>✓ Akta Pendirian</p>
+                                    <p>✓ SKT Kemenkumham</p>
+                                    <p>✓ Akun OSS RBA</p>
+                                    <p>✓ NPWP</p>
+                                    <p>✓ NIB / Izin Usaha</p>
+                                    <p>✓ SKT KPP</p>
+                                    <p>✓ Pembukaan Rekening Giro</p>
+                                    <p>✓ Pengelolaan Keuangan & Perpajakan 1 Tahun</p>
+                                    <p>✓ Pembukaan Rekening Giro</p>
+                                </div>
+
+
+                            </div>
+                            <div style={{}}>
+                                <button onClick={() => toggleIframe(1)} style={{ width: '100%', paddingBottom: '1em', paddingTop: '1em', borderRadius: '0 0 2em 2em', backgroundColor: '#5092D8', color: 'white', fontWeight: 'bolder',fontSize:'1.5em' }}>Konsultasi Sekarang</button>
+
                             </div>
                         </div>
 
-                        <p>✓ Konsultasi Legal</p>
-                        <p>✓ Pengecekan & Pemesanan Nama PT</p>
-                        <p>✓ Akta Pendirian</p>
-                        <p>✓ SKT Kemenkumham</p>
-                        <p>✓ Akun OSS RBA</p>
-                        <p>✓ NPWP</p>
-                        <p>✓ NIB / Izin Usaha</p>
-                        <p>✓ SKT KPP</p>
-                        <p>✓ Pembukaan Rekening Giro BCA/BNI/BRI</p>
-                        <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <button onClick={() => toggleIframe(1)} style={{ padding: '1em', borderRadius: '1em', backgroundColor: '#5092D8', color: 'white', fontWeight: 'bolder' }}>Konsultasi Sekarang</button>
-
-                        </div>
-
-                    </div>
-                    <div className='product-card'>
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                            <img src='assets/img/banner/used/icon-2.png' style={{ width: '10em' }} />
-                            <h4 style={{ fontWeight: 'bold', color: '#66B28B' }}>Pembuatan CV</h4>
-                            <h4 style={{ textDecoration: 'line-through', color: 'red' }}>Rp 6.000.000</h4>
-                            <div style={{ flexDirection: 'row', display: 'flex', alignItems: 'center' }}>
-                                <h4>Rp</h4>
-                                <h2>2.999 K</h2>
-                            </div>
-                        </div>
-
-                        <p>✓ Konsultasi Legal</p>
-                        <p>✓ Pengecekan & Pemesanan Nama PT</p>
-                        <p>✓ Akta Pendirian</p>
-                        <p>✓ SKT Kemenkumham</p>
-                        <p>✓ Akun OSS RBA</p>
-                        <p>✓ NPWP</p>
-                        <p>✓ NIB / Izin Usaha</p>
-                        <p>✓ SKT KPP</p>
-                        <p>✓ Pembukaan Rekening Giro BCA/BNI/BRI</p>
-                        <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <button onClick={() => toggleIframe(1)} style={{ padding: '1em', borderRadius: '1em', backgroundColor: '#5092D8', color: 'white', fontWeight: 'bolder' }}>Konsultasi Sekarang</button>
-
-                        </div>
-                    </div>
-                    <div className='product-card'>
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                            <img src='assets/img/banner/used/icon-3.png' style={{ width: '10em' }} />
-                            <h4 style={{ fontWeight: 'bold', color: '#66B28B' }}>Pendirian PT</h4>
-                            <h4 style={{ textDecoration: 'line-through', color: 'red' }}>Rp 14.000.000</h4>
-                            <div style={{ flexDirection: 'row', display: 'flex', alignItems: 'center' }}>
-                                <h4>Rp</h4>
-                                <h2>4.999 K</h2>
-                            </div>
-                        </div>
-
-                        <p>✓ Konsultasi Legal</p>
-                        <p>✓ Pengecekan & Pemesanan Nama PT</p>
-                        <p>✓ Akta Pendirian</p>
-                        <p>✓ SKT Kemenkumham</p>
-                        <p>✓ Akun OSS RBA</p>
-                        <p>✓ NPWP</p>
-                        <p>✓ NIB / Izin Usaha</p>
-                        <p>✓ SKT KPP</p>
-                        <p>✓ Pembukaan Rekening Giro BCA/BNI/BRI</p>
-                        <p>✓ Pengelolaan Keuangan & Perpajakan 1 Tahun</p>
-                        <p>✓ Pembukaan Rekening Giro BCA/BNI/BRI</p>
-                        <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <button onClick={() => toggleIframe(1)} style={{ padding: '1em', borderRadius: '1em', backgroundColor: '#5092D8', color: 'white', fontWeight: 'bolder' }}>Konsultasi Sekarang</button>
-
-                        </div>
                     </div>
                 </div>
             </div>
+
         </>
 
     )

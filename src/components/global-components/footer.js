@@ -46,16 +46,18 @@ class Footer_v1 extends Component {
 			<footer className="ltn__footer-area " >
 				<div className="footer-top-area  section-bg-2 plr--5" style={{backgroundColor:'white'}}>
 					<div className="container-fluid">
-						<div className="row">
+						<div className="row" style={{display:'flex',justifyContent:'center'}}>
 							<div className="col-xl-3 col-md-6 col-sm-6 col-12">
 								<div className="footer-widget footer-about-widget">
 									<div className="footer-logo">
 										<div className="site-logo">
 											<img src={publicUrl + "assets/img/logo-ezlegal.png"} alt="Logo" style={{height:'5em'}} />
 										</div>
+										<p style={{color:'#004391'}}>Dipercaya Perusahaan Maupun Individu</p>
 									</div>
 								</div>
 							</div>
+							
 							<div className='col-xl-3 col-md-6 col-sm-6 col-12'>
 								<div className='footer-widget footer-menu-widget clearfix'>
 								
@@ -63,50 +65,39 @@ class Footer_v1 extends Component {
 									<ul>
 										<li>
 											<div className="footer-address-icon">
-												<i className="icon-placeholder" style={{color:'black'}}/>
+												<i className="icon-placeholder" style={{color:'#004391'}}/>
 											</div>
 											<div className="footer-address-info">
-												<p style={{color:'black'}}>Pantai Indah Kapuk 2 - Kosambi, Tangerang 15214</p>
+												<p style={{color:'#004391'}}>Jl. Peta Selatan Blok, Kalideres, Ruko City Square Business Park Blok F12, DKI Jakarta, DKI Jakarta 11840, ID</p>
 											</div>
 										</li>
 										<li>
 											<div className="footer-address-icon">
-												<i className="icon-call" style={{color:'black'}}/>
+												<i className="icon-call" style={{color:'#004391'}}/>
 											</div>
 											<div className="footer-address-info">
-												<p style={{color:'black'}}><a href="tel:+0123-456789">+62812-2334-6899</a></p>
+												<p style={{color:'#004391'}}><a href="tel:+0123-456789">+62812-2334-6899</a></p>
 											</div>
 										</li>
-										<li>
+										{/* <li>
 											<div className="footer-address-icon">
 												<i className="icon-mail" style={{color:'black'}}/>
 											</div>
 											<div className="footer-address-info">
 												<p style={{color:'black'}}><a href="mailto:example@example.com">example@example.com</a></p>
 											</div>
-										</li>
+										</li> */}
 									</ul>
 								</div>
 								</div>
 								
 							</div>
-							<div className="col-xl-3 col-md-6 col-sm-12 col-12">
-								<div className="footer-widget footer-menu-widget clearfix">
-									<h4 className="footer-title" style={{color:'black'}}>Services</h4>
-									<div className="footer-menu go-top">
-										<ul>
-											<li style={{color:'black'}}><Link to="/">About</Link></li>
-											<li style={{color:'black'}}><Link to="/">Shop</Link></li>
-											<li style={{color:'black'}}><Link to="/">Contact us</Link></li>
-										</ul>
-									</div>
-								</div>
-							</div>
+							
 
 
 							<div className="col-xl-3 col-md-6 col-sm-12 col-12">
 								<div className="footer-widget footer-newsletter-widget">
-									<h4 className="footer-title" style={{color:'black'}}>Social Media</h4>
+									<h4 className="footer-title" style={{color:'#004391'}}>Social Media</h4>
 									<div >
 										<Social />
 									</div>

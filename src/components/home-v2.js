@@ -29,8 +29,9 @@ const Home_V2 = () => {
         {/* <Property/> */}
         <Story/>
         <Product/>
-        <Review/>
         <Addon/>
+        <Review/>
+      
         <Footer />
     </div>
 }

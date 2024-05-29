@@ -7,16 +7,15 @@
 }
 
 .review-container {
-    background-color: #eee;
+    width: 60%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 1em;
 }
 
 .review-textcontainer {
     padding: 1em;
-
+    width: 70%;
     display: flex;
     flex-direction: column;
 }
@@ -33,13 +32,14 @@
     flex-direction: column;
     border-radius: 1em;
     background-color: white;
-    width: 80%;
+    width: 50%;
     padding: 2em;
 }
 
 @media (max-width: 765px) {
     .review-container {
         flex-direction: column;
+        width: 100%;
     }
 
     .review-textcontainer {
@@ -49,4 +49,13 @@
         align-items: center;
         flex-direction: column;
     }
+    .review-card {
+        display: flex;
+        flex-direction: column;
+        border-radius: 1em;
+        background-color: white;
+        width: 80%;
+        padding: 2em;
+    }
+    
 }

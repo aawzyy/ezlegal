@@ -3,19 +3,23 @@ import "./Story.css"
 
 const Story = () => {
     return (
-        <>
-            <div className='story-container'>
+        < >
+            <div className='story-container' id='section3'>
+                <div className='story-card'>
+                    <div className='story-text'>
+                        <h1>Dari <span style={{ backgroundColor: 'white', paddingInline: '1%', color: 'black' }}>PRO-PLAYER</span><br />menjadi pebisnis</h1>
+                        <p style={{ fontSize: '1em', fontWeight: 'bold' }}>EzLegal hadir untuk memberikan solusi bagi para pengusaha muda seperti saya, yang ingin fokus pada pengembangan bisnis tanpa terhambat oleh birokrasi yang berbelit.<br />Dengan EzLegal, saya berharap dapat membantu lebih banyak inovator dan pengusaha milenial untuk mewujudkan mimpi mereka dengan lebih mudah dan cepat.</p>
+                        <button className='button-cta-story'>Ikuti Jejak Saya</button>
+                    </div>
+                    <div className='story-img-c'>
+                        <img src='assets/img/banner/used/proplayer.png' className='story-img'/>
+                    </div>
 
-                <div className='story-text'>
-                    <h1>Dari <span style={{ backgroundColor: 'white', paddingInline: '1%', color: 'black' }}>PRO-PLAYER</span><br />menjadi pebisnis</h1>
-                    <p style={{fontSize:'1em',fontWeight:'bold'}}>EzLegal hadir untuk memberikan solusi bagi para pengusaha muda seperti saya, yang ingin fokus pada pengembangan bisnis tanpa terhambat oleh birokrasi yang berbelit.<br />Dengan EzLegal, saya berharap dapat membantu lebih banyak inovator dan pengusaha milenial untuk mewujudkan mimpi mereka dengan lebih mudah dan cepat.</p>
-                    <button className='button-cta-story'>Ikuti Jejak Saya</button>
                 </div>
-                <img src='assets/img/banner/used/proplayer.png' className='story-img' />
+
             </div>
             <div className='segitiga' >
                 <div style={{
-
                     width: 0,
                     height: 0,
                     borderLeft: '100px solid transparent',

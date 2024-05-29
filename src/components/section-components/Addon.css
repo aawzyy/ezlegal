@@ -3,24 +3,45 @@
     gap: 1em;
     
 }
+.addon-width{
+    width: 60%;
+}
 .addon-card{
     border-radius: 1em;
-    padding: 2em;
+}
+.addon-textcontainer{
+    border-radius: 0 0 1em 1em;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: white;
 }
 .addon-card h4{
     color: #004391;
 }
 .addon-card button{
-    background-color: #004391;
+    background-color: #5397E8;
     color: white;
     border-radius: 100em;
     padding-inline: 1em;
+}
+.button-cta-addon{
+    background-color: #5092D8;
+    color: white;
+
+    padding-inline: 0;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 100vw;
 }
 
 @media (max-width: 765px) {
     .addon-container{
         flex-direction: column;
         
+    }
+    .addon-width{
+        width: 80%;
     }
   }

@@ -52,7 +52,7 @@ import History from './components/history';
 class Root extends Component {
     render() {
         return(
-                <HashRouter basename="/">
+                <Router >
 	                <div>
 	                <Switch>
 	                    <Route exact path="/" component={HomeV2} />
@@ -104,7 +104,7 @@ class Root extends Component {
                         <Route path="/history" component={ History } />
 	                </Switch>
 	                </div>
-                </HashRouter>
+                </Router>
         )
     }
 }
