@@ -100,8 +100,8 @@ class BannerV2 extends Component {
                                     <div style={{ display: 'flex', paddingTop: '1em' }}>
                                         <h5 className='text-legal' style={{ backgroundColor: 'white', paddingInline: '0.1em', color: '#5092D8', fontWeight: 'bolder', }}>Jadi Legal, Lebih Keren!</h5>
                                     </div>
-                                    <h6 className="slide-title animated text-legal" style={{ color: 'white', marginBottom: '0', }}>
-                                        Konsultasikan pembuatan usaha<br />resmi yang terlindungi hukum
+                                    <h6 className="slide-title animated text-legal" style={{ color: 'white', marginBottom: '0',textAlign:"center"}}>
+                                        Konsultasikan pembuatan usaha resmi yang terlindungi hukum
                                     </h6>
                                 </div>
                                 <div className="slide-sub-title white-color animated banner-textgroup" >

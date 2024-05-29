@@ -87,10 +87,25 @@ class NavbarV2 extends Component {
 
 						<div className="ltn__utilize-menu">
 							<ul>
-								<li><Link to="/">Home</Link></li>
-								<li><Link to="/">About</Link></li>
-								<li><Link to="/">Contact</Link></li>
-								<li><Link to="/">Product</Link></li>
+								<li><Link activeClass="active"
+									to="section1"
+									spy={true}
+									smooth={true}
+									offset={-70}
+									duration={500}>Home</Link></li>
+								<li><Link activeClass="active"
+									to="section2"
+									spy={true}
+									smooth={true}
+									offset={-70}
+									duration={500}>About</Link></li>
+
+								<li><Link activeClass="active"
+									to="section4"
+									spy={true}
+									smooth={true}
+									offset={70}
+									duration={500}>Product</Link></li>
 							</ul>
 						</div>
 

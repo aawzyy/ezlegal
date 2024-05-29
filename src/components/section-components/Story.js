@@ -8,7 +8,7 @@ const Story = () => {
                 <div className='story-card'>
                     <div className='story-text'>
                         <h1>Dari <span style={{ backgroundColor: 'white', paddingInline: '1%', color: 'black' }}>PRO-PLAYER</span><br />menjadi pebisnis</h1>
-                        <p style={{ fontSize: '1em', fontWeight: 'bold' }}>EzLegal hadir untuk memberikan solusi bagi para pengusaha muda seperti saya, yang ingin fokus pada pengembangan bisnis tanpa terhambat oleh birokrasi yang berbelit.<br />Dengan EzLegal, saya berharap dapat membantu lebih banyak inovator dan pengusaha milenial untuk mewujudkan mimpi mereka dengan lebih mudah dan cepat.</p>
+                        <p style={{ fontSize: '1em', fontWeight: 'bold' }}>EZlegal hadir untuk memberikan solusi bagi para pengusaha muda seperti saya, yang ingin fokus pada pengembangan bisnis tanpa terhambat oleh birokrasi yang berbelit.<br />Dengan EZlegal, saya berharap dapat membantu lebih banyak inovator dan pengusaha milenial untuk mewujudkan mimpi mereka dengan lebih mudah dan cepat.</p>
                         <button className='button-cta-story'>Ikuti Jejak Saya</button>
                     </div>
                     <div className='story-img-c'>

@@ -127,8 +127,7 @@ const Product = () => {
                                     <p>✓ NIB / Izin Usaha</p>
                                     <p>✓ SKT KPP</p>
                                     <p>✓ Pembukaan Rekening Giro</p>
-                                    <p>✓ Pengelolaan Keuangan & Perpajakan 1 Tahun</p>
-                                    <p>✓ Pembukaan Rekening Giro</p>
+                                   
                                 </div>
 
 
